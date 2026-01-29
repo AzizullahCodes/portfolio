@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 function MyNavbar() {
   return (
     <Navbar bg="dark" data-bs-theme="dark" expand="lg">
-      <Container fluid> {/* Full width */}
+      <Container> {/* Full width */}
         <Navbar.Brand as={NavLink} to="/">
           Portfolio
         </Navbar.Brand>

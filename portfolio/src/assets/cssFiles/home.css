@@ -1,44 +1,62 @@
-/* Universal box-sizing and reset */
-* {
+*{
+  margin: 0;
+  padding : 0;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden; /* prevent horizontal scroll */
+body{
+  font-family: sans-serif;
 }
+.home{
+ display: flex;
+ justify-content: center;
+   /* background: linear-gradient(to right, #E9E4F0, #D3CCE3); */
+   background: #232526;  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-/* HOME SECTION */
-.home {
-  width: 100vw;
-  min-height: 100vh;
+}
+.homeContainer{
+  max-width: 83%;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
-  overflow-x: hidden; /* safety */
-}
-
-/* CONTAINER */
-.homeContainer {
+  flex-wrap: wrap;
   
-  max-width: 1300px;
-  /* margin: 0 auto;
-  padding: 20px 5%; 
+}
+
+.home-left {
+  max-width: 50%;
+  margin: auto;
+}
+.home-right {
+  max-width: 50%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 50px; */
- 
-
+}
+.home-right img{
+  max-width: 70%;
+  height : auto;
 }
 
-.home-left{
-    width: 50%;
-}
+.home-left h1{color:#dee2e6;
+font-size: 50px;}
 
-.home-right
-    
+.home-left p{color:#dee2e6;}
 
+.home-left button{padding : 12px 24px;
+background-color:black;
+color:#dee2e6;
+border-radius: 10px;
+cursor: pointer;
+transition: 0.3s ease;}
+
+.home-left button:hover{background: transparent;
+border:2px solid white;}
+
+.buttondiv{display: flex;
+gap:20px;}
+
+/* .home-icon */
+.home-icon{display: flex;
+gap: 20px;
+padding-top: 20px;}
