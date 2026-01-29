@@ -1,0 +1,44 @@
+/* Universal box-sizing and reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+/* HOME SECTION */
+.home {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  overflow-x: hidden; /* safety */
+}
+
+/* CONTAINER */
+.homeContainer {
+  
+  max-width: 1300px;
+  /* margin: 0 auto;
+  padding: 20px 5%; 
+  display: flex;
+  align-items: center;
+  gap: 50px; */
+ 
+
+}
+
+.home-left{
+    width: 50%;
+}
+
+.home-right
+    
+
