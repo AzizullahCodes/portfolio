@@ -1,62 +1,109 @@
 *{
   margin: 0;
-  padding : 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 body{
   font-family: sans-serif;
 }
-.home{
- display: flex;
- justify-content: center;
-   /* background: linear-gradient(to right, #E9E4F0, #D3CCE3); */
-   background: #232526;  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+/* ===== HOME ===== */
+.home{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #414345, #232526);
 }
+
+/* ===== CONTAINER ===== */
 .homeContainer{
   max-width: 83%;
-
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  
+  align-items: center;
 }
 
-.home-left {
-  max-width: 50%;
-  margin: auto;
+/* ===== LEFT & RIGHT ===== */
+.home-left,
+.home-right{
+  flex: 1 1 50%;
 }
-.home-right {
-  max-width: 50%;
+
+/* remove max-width & margin:auto (they break flex-wrap) */
+
+/* ===== RIGHT IMAGE ===== */
+.home-right{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .home-right img{
-  max-width: 70%;
-  height : auto;
+  width: 100%;
+  max-width: 380px;   /* image control */
+  height: auto;
+  border-radius: 50%;
 }
 
-.home-left h1{color:#dee2e6;
-font-size: 50px;}
+/* ===== TEXT ===== */
+.home-left h1{
+  color: #dee2e6;
+  font-size: 50px;
+}
 
-.home-left p{color:#dee2e6;}
+.home-left p{
+  color: #dee2e6;
+}
 
-.home-left button{padding : 12px 24px;
-background-color:black;
-color:#dee2e6;
-border-radius: 10px;
-cursor: pointer;
-transition: 0.3s ease;}
+/* ===== BUTTONS ===== */
+.home-left button{
+  padding: 12px 24px;
+  background-color: black;
+  color: #dee2e6;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+}
 
-.home-left button:hover{background: transparent;
-border:2px solid white;}
+.home-left button:hover{
+  background: transparent;
+  border: 2px solid white;
+}
 
-.buttondiv{display: flex;
-gap:20px;}
+.buttondiv{
+  display: flex;
+  gap: 20px;
+}
 
-/* .home-icon */
-.home-icon{display: flex;
-gap: 20px;
-padding-top: 20px;}
+/* ===== ICONS ===== */
+.home-icon{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.icon{
+  font-size: 40px;
+  color: #dee2e6;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 800px){
+  .home-left,
+  .home-right{
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .buttondiv,
+  .home-icon{
+    justify-content: center;
+  }
+
+  .home-left h1{
+    font-size: 36px;
+  }
+}

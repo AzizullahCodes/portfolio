@@ -19,16 +19,16 @@ Creative UI/UX Designer</h1>
 </div>
 <div className="home-icon">
  <a href="https://github.com/" target="_blank" rel="noreferrer">
-              <FaGithub />
+              <FaGithub className="icon" />
             </a>
             <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
-              <FaLinkedin />
+              <FaLinkedin className="icon" />
             </a>
             <a href="mailto:example@email.com">
-              <FaEnvelope />
+              <FaEnvelope className="icon" />
             </a>
             <a href="https://wa.me/923000000000" target="_blank" rel="noreferrer">
-              <FaWhatsapp />
+              <FaWhatsapp className="icon" />
             </a>
 </div></div>
             {/* right-column */}
