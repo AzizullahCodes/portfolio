@@ -107,3 +107,10 @@ body{
     font-size: 36px;
   }
 }
+
+@media(max-width:500px){
+  .buttondiv{
+  display: flex;
+  flex-direction: column;
+}
+}
