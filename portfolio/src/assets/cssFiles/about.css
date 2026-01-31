@@ -31,6 +31,7 @@ body{
     /* border: 2px solid black; */
     max-width: 600px;
     margin: auto;
+    padding: 0 20px;
   color: #dee2e6;
   text-align: justify;
   text-align-last: center;
@@ -44,6 +45,10 @@ body{
   align-items: center;
 }
 
+.secondRow .home-left p{
+    text-align: justify;
+    text-align-last: center;
+}
 /* ===== LEFT & RIGHT ===== */
 .home-left,
 .home-right{
@@ -111,6 +116,7 @@ body{
     /* border: 2px solid black; */
     max-width: 600px;
     margin: auto;
+    padding: 0px 20px;
   color: #dee2e6;
   text-align: justify;
   text-align-last: center;

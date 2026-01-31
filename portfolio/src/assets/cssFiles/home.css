@@ -30,6 +30,10 @@ body{
 .home-right{
   flex: 1 1 50%;
 }
+.home-left p{
+  text-align: justify;
+  text-align-last: center;
+}
 
 /* remove max-width & margin:auto (they break flex-wrap) */
 

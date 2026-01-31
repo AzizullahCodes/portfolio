@@ -12,6 +12,7 @@ const About = ()=>{
 <p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript, and React.js. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
 
         </div>
+        {/* ====== secondRow ====== */}
         <div className="secondRow">
  {/* left-column */}
            <div className="home-left"> 
