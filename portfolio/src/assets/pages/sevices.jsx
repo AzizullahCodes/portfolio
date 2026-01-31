@@ -1,6 +1,12 @@
 // about.jsx
 import React from "react";
 import '../cssFiles/services.css';
+import { FaCode } from "react-icons/fa";
+import { TbBrandJavascript } from "react-icons/tb";
+import { GrReactjs } from "react-icons/gr";
+import { FaObjectGroup, FaPalette } from "react-icons/fa";
+import { BsBootstrap } from "react-icons/bs";
+import { FaTools, FaRocket } from "react-icons/fa";
 const About = ()=>{
     return(
        <section className="about">
@@ -13,16 +19,50 @@ const About = ()=>{
         
         {/* =========== fourthRow ======== */}
         <div className="fourthRow">
-            {/* ======= card html ===== */}
+            {/* ======= card Responsive Website Development ===== */}
           <div className="card">
-            <h3>HTML</h3>
-            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <span><FaCode size={40} color="#007BFF" /></span>
+            <h3>Responsive Website Development</h3>
+            <p>I create fully responsive websites that adapt seamlessly to all screen sizes, ensuring a consistent, user-friendly experience on mobile, tablet, and desktop devices.</p>
            
           </div>
-            {/* ======= card css ===== */}
+            {/* ======= card Frontend Development with JavaScript ===== */}
           <div className="card">
-            <h3>CSS</h3>
-            <p>Able to design visually appealing and responsive web pages with modern styling techniques. Skilled in CSS3 features, layouts, and customizing designs for different devices.</p>
+            <span><TbBrandJavascript size={40} color="#007BFF" /></span>
+            <h3>Frontend Development with JavaScript</h3>
+            <p>I develop interactive and dynamic frontend features using JavaScript, including DOM manipulation, form validation, and user-focused functionality to enhance website usability.</p>
+           
+          </div>
+
+           {/* ======= card ReactJS Application Development ===== */}
+          <div className="card">
+            <span><GrReactjs size={40} color="#007BFF"/></span>
+            <h3>ReactJS Application Development</h3>
+            <p>I build fast, scalable, and interactive web applications using ReactJS, focusing on reusable components, clean code, and a smooth user experience.</p>
+           
+          </div>
+
+           {/* ======= card UI Implementation from Designs ===== */}
+          <div className="card">
+            <span><FaObjectGroup size={40} color="#007BFF" /></span>
+            
+            <h3>UI Implementation from Designs</h3>
+            <p>I convert UI designs from Figma and other design tools into pixel-perfect, responsive, and user-friendly web interfaces using modern frontend technologies.</p>
+           
+          </div>
+
+           {/* ======= card Bootstrap & React-Bootstrap UI Design ===== */}
+          <div className="card">
+            <span><BsBootstrap size={40} color="#007BFF"/></span>
+            <h3>Bootstrap & React-Bootstrap UI Design</h3>
+           <p>I create clean, responsive, and modern user interfaces using Bootstrap and React-Bootstrap, ensuring fast development, consistent design, and mobile-friendly layouts.</p>           
+          </div>
+
+           {/* ======= card css ===== */}
+          <div className="card">
+            <FaTools size={40} color="#007BFF" /> 
+            <h3>Website Optimization & Fixes</h3>
+            <p>I improve website performance, fix layout and responsiveness issues, and resolve frontend bugs to ensure a smooth, fast, and user-friendly experience across all devices and browsers.</p>
            
           </div>
            
