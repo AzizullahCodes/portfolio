@@ -50,7 +50,7 @@ body{
     padding-right: 20px;
 }
 
-.fourthRow .cards{
+.fourthRow .card{
    
     background-color:#141f26;
     color: #dee2e6;
@@ -63,10 +63,13 @@ body{
     gap: 10px;
 }
 
-.fourthRow .cards h3{
+.fourthRow .card h3{
   color: #dee2e6;;
 }
 
+.fourthRow .card span {
+  padding-bottom: 20px;
+}
 
 /* ===== MOBILE ===== */
 
