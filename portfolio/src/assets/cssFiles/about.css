@@ -9,15 +9,34 @@ body{
 }
 
 /* ===== HOME ===== */
-.home{
+.about{
   min-height: 100vh;
   display: flex;
   justify-content: center;
+ 
   background: linear-gradient(to right, #414345, #232526);
 }
+/* ====== firstRow========= */
+.firstRow{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.firstRow h1{
+  color: #dee2e6;
+  font-size: 50px;
+  text-align: center;
+}
 
-/* ===== CONTAINER ===== */
-.homeContainer{
+.firstRow p{
+    /* border: 2px solid black; */
+    max-width: 600px;
+    margin: auto;
+  color: #dee2e6;
+  text-align: justify;
+  text-align-last: center;
+}
+/* ===== secondRow ===== */
+.secondRow{
   max-width: 83%;
   margin: auto;
   display: flex;
@@ -109,7 +128,7 @@ body{
 }
 
 @media(max-width:800px){
-  .homeContainer{
+  .secondRow{
     display: flex;
     flex-direction: column;
     gap:30px;
@@ -120,7 +139,7 @@ body{
   display: flex;
   flex-direction: column;
 }
-.homeContainer{display: flex;
+.secondRow{display: flex;
 flex-direction: column;
 gap:60px;}
 }
