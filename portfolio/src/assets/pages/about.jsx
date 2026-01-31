@@ -30,6 +30,7 @@ const About = ()=>{
                 <img src={myimage} alt="" />
             </div>
         </div>
+        {/* =========== thirdRow ======== */}
         <div className="thirdRow">
 <h1>Skills</h1>
 <p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript, and React.js. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
