@@ -38,7 +38,7 @@ body{
   font-size: 18px;
 }
 
-/* ===== fourthRow ===== */
+/* ===== secondRow ===== */
 .fourthRow{
     display: grid;
     max-width: 1080px;
@@ -50,49 +50,25 @@ body{
     padding-right: 20px;
 }
 
-.fourthRow .card{
+.fourthRow .cards{
    
     background-color:#141f26;
     color: #dee2e6;
     font-size: 14px;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px ;
+    gap: 10px;
+}
+
+.fourthRow .cards h3{
+  color: #dee2e6;;
 }
 
 
 /* ===== MOBILE ===== */
-@media (max-width: 800px){
-  .home-left,
-  .home-right{
-    flex: 1 1 100%;
-    text-align: center;
-  }
-
-  .buttondiv,
-  .home-icon{
-    justify-content: center;
-  }
-
-  .home-left h1{
-    font-size: 36px;
-  }
-}
-
-@media(max-width:800px){
-  .secondRow{
-    display: flex;
-    flex-direction: column;
-    gap:30px;
-  }
-}
-@media(max-width:500px){
-  .buttondiv{
-  display: flex;
-  flex-direction: column;
-}
-.secondRow{display: flex;
-flex-direction: column;
-gap:60px;}
-}
 
 @media(max-width:1000px){.fourthRow{
     grid-template-columns:33% 33% 33%;

@@ -11,13 +11,14 @@ const About = ()=>{
     return(
        <section className="about">
        <div className="aboutContainer">
+        {/* ====== firstRow ====== */}
         <div className="firstRow">
 <h1>About</h1>
 <p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript, and React.js. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
 
         </div>
         
-        {/* =========== fourthRow ======== */}
+        {/* =========== secondRow ======== */}
         <div className="fourthRow">
             {/* ======= card Responsive Website Development ===== */}
           <div className="card">
@@ -60,7 +61,7 @@ const About = ()=>{
 
            {/* ======= card css ===== */}
           <div className="card">
-            <FaTools size={40} color="#007BFF" /> 
+           <span> <FaTools size={40} color="#007BFF" /> </span>
             <h3>Website Optimization & Fixes</h3>
             <p>I improve website performance, fix layout and responsiveness issues, and resolve frontend bugs to ensure a smooth, fast, and user-friendly experience across all devices and browsers.</p>
            
