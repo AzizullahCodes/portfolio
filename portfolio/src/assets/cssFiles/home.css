@@ -13,7 +13,8 @@ body{
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, #414345, #232526);
+  /* background: linear-gradient(to right, #414345, #232526); */
+  background: #101a20;
 }
 
 /* ===== CONTAINER ===== */
@@ -33,6 +34,7 @@ body{
 .home-left p{
   text-align: justify;
   text-align-last: center;
+  font-size: 18px;
 }
 
 /* remove max-width & margin:auto (they break flex-wrap) */
@@ -59,6 +61,7 @@ body{
 
 .home-left p{
   color: #dee2e6;
+  font-size: 18px;
 }
 
 /* ===== BUTTONS ===== */
