@@ -115,17 +115,18 @@ body{
   text-align: justify;
   text-align-last: center;
 }
-/* ===== ICONS ===== */
-.home-icon{
-  display: flex;
-  gap: 20px;
-  padding-top: 20px;
+/* ===== fourthRow ===== */
+.fourthRow{
+    display: grid;
+    max-width: 1080px;
+   justify-content: center;
+    margin: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.icon{
-  font-size: 40px;
-  color: #dee2e6;
-}
 
 /* ===== MOBILE ===== */
 @media (max-width: 800px){
@@ -161,3 +162,14 @@ body{
 flex-direction: column;
 gap:60px;}
 }
+
+@media(max-width:1000px){.fourthRow{
+    grid-template-columns:33% 33% 33%;
+}}
+
+@media(max-width:768px){.fourthRow{
+    grid-template-columns:50% 50% ;
+}}
+@media(max-width:500px){.fourthRow{
+    grid-template-columns:100%;
+}}

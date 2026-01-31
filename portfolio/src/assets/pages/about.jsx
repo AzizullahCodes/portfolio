@@ -2,6 +2,7 @@
 import React from "react";
 import '../cssFiles/about.css';
 import myimage from '../../assets//profileImages/myimage.png';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 const About = ()=>{
     return(
        <section className="about">
@@ -35,8 +36,50 @@ const About = ()=>{
 <h1>Skills</h1>
 <p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript, and React.js. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
         </div>
+        {/* =========== fourthRow ======== */}
         <div className="fourthRow">
-
+            {/* ======= card html ===== */}
+          <div className="card">
+            <h3>HTML</h3>
+            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <ProgressBar now={90} label='90%' />
+          </div>
+            {/* ======= card css ===== */}
+          <div className="card">
+            <h3>HTML</h3>
+            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <ProgressBar now={90} label='90%' />
+          </div>
+            {/* ======= card javascript ===== */}
+          <div className="card">
+            <h3>HTML</h3>
+            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <ProgressBar now={90} label='90%' />
+          </div>
+            {/* ======= card reactJs ===== */}
+          <div className="card">
+            <h3>HTML</h3>
+            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <ProgressBar now={90} label='90%' />
+          </div>
+            {/* ======= card bootstrap ===== */}
+          <div className="card">
+            <h3>HTML</h3>
+            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <ProgressBar now={90} label='90%' />
+          </div>
+            {/* ======= card reactbootstrap ===== */}
+          <div className="card">
+            <h3>HTML</h3>
+            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <ProgressBar now={90} label='90%' />
+          </div>
+            {/* ======= card mdn bootstrap ===== */}
+          <div className="card">
+            <h3>HTML</h3>
+            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <ProgressBar now={90} label='90%' />
+          </div>
         </div>
        </div>
        </section>
