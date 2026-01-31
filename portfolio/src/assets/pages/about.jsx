@@ -47,39 +47,39 @@ const About = ()=>{
           </div>
             {/* ======= card css ===== */}
           <div className="card">
-            <h3>HTML</h3>
-            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <h3>CSS</h3>
+            <p>Able to design visually appealing and responsive web pages with modern styling techniques. Skilled in CSS3 features, layouts, and customizing designs for different devices.</p>
             <ProgressBar now={90} label='90%' />
           </div>
             {/* ======= card javascript ===== */}
           <div className="card">
-            <h3>HTML</h3>
-            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
+            <h3>Javascript</h3>
+            <p>Capable of adding interactivity and dynamic behavior to web pages. Skilled in using core JavaScript concepts to solve problems and enhance user experience.</p>
             <ProgressBar now={90} label='90%' />
           </div>
             {/* ======= card reactJs ===== */}
           <div className="card">
-            <h3>HTML</h3>
-            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
-            <ProgressBar now={90} label='90%' />
+            <h3>ReactJs</h3>
+            <p>Gaining hands-on experience with React fundamentals, including components, props, and state management. Currently learning advanced concepts to strengthen my frontend development skills.</p>
+            <ProgressBar now={90} label='80%' />
           </div>
             {/* ======= card bootstrap ===== */}
           <div className="card">
-            <h3>HTML</h3>
-            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
-            <ProgressBar now={90} label='90%' />
+            <h3>Bootstrap</h3>
+            <p>Proficient in using Bootstrap to design responsive, mobile-first layouts with its grid system, utility classes, and reusable components, ensuring clean structure and consistent UI across all screen sizes.</p>
+            <ProgressBar now={90} label='80%' />
           </div>
             {/* ======= card reactbootstrap ===== */}
           <div className="card">
-            <h3>HTML</h3>
-            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
-            <ProgressBar now={90} label='90%' />
+            <h3>Reactbootstrap</h3>
+            <p>Proficient in building responsive, component-based UIs using React-Bootstrap, leveraging its grid system, pre-built components, and utility classes to create clean, maintainable, and modern web interfaces.</p>
+            <ProgressBar now={90} label='80%' />
           </div>
             {/* ======= card mdn bootstrap ===== */}
           <div className="card">
-            <h3>HTML</h3>
-            <p>Skilled in creating well-structured, semantic web pages with clean and organized code. Proficient in building responsive layouts and using HTML5 best practices.</p>
-            <ProgressBar now={90} label='90%' />
+            <h3>Mdn Bootstrap</h3>
+            <p>Proficient in building responsive, mobile-first layouts using Bootstrap’s grid system, pre-built components, and utility classes to create clean, organized, and modern web interfaces.</p>
+            <ProgressBar now={90} label='80%' />
           </div>
         </div>
        </div>
