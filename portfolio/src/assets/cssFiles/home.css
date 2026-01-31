@@ -130,4 +130,8 @@ body{
 .homeContainer{display: flex;
 flex-direction: column;
 gap:60px;}
+.home{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 }
