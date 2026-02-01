@@ -50,41 +50,4 @@ body{
     padding-right: 20px;
 }
 
-.fourthRow .card{
-   
-    background-color:#141f26;
-    /* border: 2px solid wheat; */
-    color: #dee2e6;
-    font-size: 14px;
-    /* text-align: center; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px ;
-    gap: 10px;
-}
-
-.fourthRow .card h3{
-  color: #dee2e6;;
-}
-
-.fourthRow .card span {
-  padding-bottom: 20px;
-}
-
-/* ===== MOBILE ===== */
-
-@media(max-width:1000px){.fourthRow{
-    grid-template-columns:33% 33% 33%;
-}}
-
-@media(max-width:768px){.fourthRow{
-    grid-template-columns:50% 50% ;
-}}
-@media(max-width:500px){.fourthRow{
-    grid-template-columns:100%;
-}
-.about{
-    padding-top: 20px;
-    padding-bottom: 40px;
-}}
+/*  */
