@@ -90,14 +90,29 @@ body{
   line-height: 1.6;
 }
 
-.cssProjects button{
-  padding: 12px 24px;
-  background-color: black;
-  color: #dee2e6;
+.cssProjects .one{
+    padding: 6px 30px;
+
+  background: transparent;      /* no background */
+  border: 2px solid black;      /* black border */
+  color: black;                 /* black text */
+font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
-  transition: 0.3s ease;
-  border: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.cssProjects .two{
+    padding: 6px 18px;
+
+  background: transparent;      /* no background */
+  border: 2px solid black;      /* black border */
+  color: black;                 /* black text */
+font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
   white-space: nowrap;
 }
 
@@ -107,10 +122,9 @@ body{
   flex-wrap: wrap;      /* 🔥 MOST IMPORTANT */
   justify-content: center;
 }
-.cssProjects button:hover{
-  background: transparent;
-  border: 2px solid black;
-  color:black;
+.cssProjects button:hover {
+  background: black;
+  color: white;
 }
 
 
@@ -138,4 +152,29 @@ body{
     padding-top: 20px;
     padding-bottom: 40px;
   }
+}
+
+
+@media(max-width:1060px){
+  .cssProjects button{
+   padding: 8px 20px;  
+ 
+   background-color: black; 
+  color: #dee2e6;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+  border: none;
+  white-space: nowrap;
+}
+}
+
+@media(max-width:925px){
+  
+.cssProjects div{
+  display: flex;
+  flex-direction: row;
+  
+}
 }

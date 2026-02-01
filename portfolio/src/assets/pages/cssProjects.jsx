@@ -3,6 +3,7 @@
 import React from "react";
 import "../cssFiles/cssProjects.css";
 import projectNine from '../cssImages/projectNine.png';
+import Button from 'react-bootstrap/Button';
 
 const CssProjects = () => {
   return (
@@ -24,9 +25,12 @@ const CssProjects = () => {
         <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
-            <button>view live</button>
-            <button>view on github</button>
-        </div>
+            <button className="one"><a href="https://amazon-clone-website-brown.vercel.app" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/amazon-clone-website" target="_blank" >Github Link</a></button> 
+              
+        </div> 
+        
+      
       </div>
           
 
