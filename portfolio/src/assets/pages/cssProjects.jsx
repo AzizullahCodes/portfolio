@@ -29,8 +29,6 @@ const CssProjects = () => {
             <button className="two"><a href="https://github.com/AzizullahCodes/amazon-clone-website" target="_blank" >Github Link</a></button> 
               
         </div> 
-        
-      
       </div>
           
 
