@@ -7,8 +7,8 @@ import projectNine from '../cssImages/projectNine.png';
 const CssProjects = () => {
   return (
     <section className="cssProjects">
-      <div className="aboutContainer">
-
+      <div className="cssContainer">
+      
         {/* ====== firstRow ====== */}
         <div className="firstRow">
           <h1>My CSS Projects</h1>
@@ -21,7 +21,7 @@ const CssProjects = () => {
         <div className="secondRow">
             {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -33,7 +33,7 @@ const CssProjects = () => {
 
              {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -44,7 +44,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -55,7 +55,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -65,7 +65,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -75,18 +75,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
-        <img src={projectNine} alt="" />
-        <div>
-            <button>view live</button>
-            <button>view on github</button>
-        </div>
-      </div>
-
-
-         {/* ======= project-01 ====== */}
-      <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -97,7 +86,18 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
+        <img src={projectNine} alt="" />
+        <div>
+            <button>view live</button>
+            <button>view on github</button>
+        </div>
+      </div>
+
+
+         {/* ======= project-01 ====== */}
+      <div className="card">
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -107,7 +107,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -117,7 +117,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -127,7 +127,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -137,7 +137,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -147,7 +147,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -157,7 +157,7 @@ const CssProjects = () => {
 
          {/* ======= project-01 ====== */}
       <div className="card">
-        <h4>Project-01</h4>
+        <p>Project-01</p>
         <img src={projectNine} alt="" />
         <div>
             <button>view live</button>
@@ -169,9 +169,9 @@ const CssProjects = () => {
 
 
        
-
+</div>
         </div>
-      </div>
+     
     </section>
   );
 };

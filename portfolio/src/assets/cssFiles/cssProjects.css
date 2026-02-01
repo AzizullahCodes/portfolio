@@ -16,10 +16,18 @@ body{
   background: #101a20;
   padding-bottom: 60px;
 }
+ .cssProjects .cssContainer{ max-width: 83%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;}
 
 /* ===== firstRow ===== */
 .cssProjects .firstRow{
   padding-top: 40px;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 80px;
   text-align: center;
 }
@@ -30,7 +38,7 @@ body{
 }
 
  .cssProjects .firstRow p{
-  max-width: 600px;
+  max-width: 800px;
   margin: 20px auto 0;
   padding: 0 20px;
   color: #dee2e6;
@@ -43,43 +51,69 @@ body{
   display: grid;
   max-width: 1080px;
   margin: auto;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33.3% 33.3% 33.3%;
   gap: 20px;
   padding: 0 20px;
 }
 
 /* ===== cards ===== */
- .cssProjects .secondRow .cards{
-  background-color: #141f26;
-  color: #dee2e6;
+ .cssProjects .secondRow .card{
+   background-color:white; 
+   color: black;
+  
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align:center;
-  
-  padding: 25px 20px;
+  /* align-items: center; */
+  /* text-align:center; */
+  padding: px 20px;
   gap: 12px;
   border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+.cssProjects .secondRow .card p{
+  
+  font-weight: bold;
+}
+ 
+.cssProjects .secondRow .card img{
+  width: 100%;
 }
 
- .cssProjects .secondRow .cards:hover{
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-}
+ 
 
- .secondRow .cards span{
-  color: #007BFF;
-}
-
-.secondRow .cards h4{
+.secondRow .card h4{
   font-size: 18px;
 }
 
-.secondRow .cards p{
+.secondRow .card p{
   font-size: 14px;
   line-height: 1.6;
 }
+
+.cssProjects button{
+  padding: 12px 24px;
+  background-color: black;
+  color: #dee2e6;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+  white-space: nowrap;
+}
+
+.cssProjects div{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;      /* 🔥 MOST IMPORTANT */
+  justify-content: center;
+}
+.cssProjects button:hover{
+  background: transparent;
+  border: 2px solid black;
+  color:black;
+}
+
+
 
 /* ===== RESPONSIVE ===== */
 
