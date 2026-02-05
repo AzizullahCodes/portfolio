@@ -2,7 +2,7 @@
 
 import React from "react";
 import "../cssFiles/cssProjects.css";
-import projectOne from '../cssImages/projectOne.png';
+import projectOne from '../cssImages/projectOne.PNG';
 import projectTwo from '../cssImages/projectTwo.png';
 import projectThree from '../cssImages/projectThree.png';
 import projectFour from '../cssImages/projectFour.png';
