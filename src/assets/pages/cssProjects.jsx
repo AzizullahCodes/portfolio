@@ -10,11 +10,11 @@ import projectFive from '../cssImages/projectFive.png';
 import projectSix from '../cssImages/projectSix.png';
 import projectSeven from '../cssImages/projectSeven.png';
 import projectEight from '../cssImages/projectEight.png';
-import projectNine from '../cssImages/projectNine.png';
-import projectTen from '../cssImages/projectTen.png';
-import projectEleven from '../cssImages/projectEleven.png';
+import projectNine from '../cssImages/projectNine.PNG';
+import projectTen from '../cssImages/projectTen.PNG';
+import projectEleven from '../cssImages/projectEleven.PNG';
 import projectTwelve from '../cssImages/projectTwelve.png';
-import projectThirteen from '../cssImages/projectThirteen.png';
+import projectThirteen from '../cssImages/projectThirteen.PNG';
 
 import Button from 'react-bootstrap/Button';
 
