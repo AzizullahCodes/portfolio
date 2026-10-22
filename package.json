@@ -9,6 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "mdb-react-ui-kit": "^10.0.0",

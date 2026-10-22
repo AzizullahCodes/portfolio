@@ -1,8 +1,5 @@
 // projectsData.js
-// Tip: Save your project screenshots in `src/assets/images/projects/` and import them here,
-// OR save them in `public/projects/` and use direct paths like "/projects/your-screenshot.png"
-import novamartImg from "../assets/images/projects/novamart.png";
-import firstEcommerceWeb from "../assets/images/projects/firstEcommerceWeb.png";
+import firstEcommerceWeb from "../assets/images/projects/firstEcommerceweb.png";
 
 export const projectsData = [
   {
