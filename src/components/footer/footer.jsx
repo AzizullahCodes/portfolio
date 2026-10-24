@@ -17,7 +17,7 @@ export default function Footer() {
             <span className="brand-bracket">&lt;</span>
             <span className="brand-name">Azizullah</span>
             <span className="brand-slash"> /&gt;</span>
-            <p className="footer-tagline">Crafting scalable full-stack web applications with modern technologies.</p>
+            <p className="footer-tagline">Crafting scalable Frontend/full-stack web applications with modern technologies.</p>
           </div>
 
           <div className="footer-social-links">
