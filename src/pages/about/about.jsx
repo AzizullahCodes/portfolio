@@ -3,7 +3,8 @@ import React from "react";
 import "./about.css";
 import myimage from "../../assets/images/profileImages/myimage.png";
 import ProgressBar from "react-bootstrap/ProgressBar";
-import { FaFilePdf, FaDownload, FaCode, FaServer, FaDatabase, FaLayerGroup } from "react-icons/fa";
+import { FaEye, FaDownload, FaCode, FaServer, FaDatabase, FaLayerGroup } from "react-icons/fa";
+import { resumePdf, downloadResume } from "../../utils/resume";
 
 const skillsData = [
   { name: "React.js & Next.js", level: 85, icon: <FaCode />, category: "Frontend" },
@@ -67,24 +68,25 @@ const About = () => {
             {/* Resume Action Buttons */}
             <div className="bio-actions">
               <a
-                href="/azizullahResume.pdf"
+                href={resumePdf}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-resume-view"
                 title="Open Azizullah's Resume in New Tab"
               >
-                <FaFilePdf className="btn-icon" />
-                View Full Resume
+                <FaEye className="btn-icon" />
+                View Resume
               </a>
 
               <a
-                href="/azizullahResume.pdf"
+                href={resumePdf}
                 download="Azizullah-Resume.pdf"
+                onClick={downloadResume}
                 className="btn-resume-download"
                 title="Download Azizullah's Resume PDF"
               >
                 <FaDownload className="btn-icon" />
-                Download CV
+                Download Resume
               </a>
             </div>
           </div>

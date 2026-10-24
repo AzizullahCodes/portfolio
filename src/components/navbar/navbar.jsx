@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './navbar.css';
-import { FaFilePdf } from 'react-icons/fa';
 
 function MyNavbar() {
   const [activeSection, setActiveSection] = useState('home');
@@ -109,19 +108,6 @@ function MyNavbar() {
               className={`nav-link-custom ${activeSection === 'contact' ? 'active' : ''}`}
             >
               Contact
-            </a>
-
-            {/* Direct Resume Link in Navbar (Opens PDF instantly in new tab) */}
-            <a
-              href="/azizullahResume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setNavExpanded(false)}
-              className="navbar-resume-btn"
-              title="Open Azizullah's Resume in New Tab"
-            >
-              <FaFilePdf className="resume-nav-icon" />
-              <span>Resume</span>
             </a>
           </Nav>
         </Navbar.Collapse>

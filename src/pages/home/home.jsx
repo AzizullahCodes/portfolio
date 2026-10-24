@@ -1,7 +1,7 @@
 // home.jsx
 import React from "react";
 import "./home.css";
-import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp, FaArrowDown, FaFilePdf, FaCodeBranch } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp, FaArrowDown, FaCodeBranch } from "react-icons/fa";
 import myimage from "../../assets/images/profileImages/myimage.png";
 
 const Home = () => {
@@ -50,18 +50,6 @@ const Home = () => {
               <span>Explore My Work</span>
               <FaArrowDown className="btn-action-icon" />
             </button>
-
-            {/* Direct Open Resume Link */}
-            <a
-              href="/azizullahResume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-hero-resume"
-              title="Open Resume in New Tab"
-            >
-              <FaFilePdf className="btn-action-icon" />
-              <span>View Resume</span>
-            </a>
 
             <button
               onClick={() => scrollTo("contact")}
