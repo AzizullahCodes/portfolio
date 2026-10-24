@@ -11,7 +11,7 @@ export const projectsData = [
     description:
       "Built on ReactJs",
     features: [
-      "Secure JWT-based authentication with strict access control for public and protected routes",
+      "Secure  authentication with strict access control for public and protected routes",
 
 "End-to-end checkout flow including add-to-cart, cart progression, and secure order placement",
 

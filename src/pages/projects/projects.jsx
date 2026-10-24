@@ -25,7 +25,7 @@ const Projects = () => {
             Crafted with <span className="gradient-text">Passion & Code</span>
           </h2>
           <p className="projects-subtitle">
-            Explore my featured full-stack and frontend applications. Built with modern architectures, 
+            Explore my featured  frontend applications. Built with modern architectures, 
             pixel-perfect design, clean code, and robust user experiences.
           </p>
         </div>
