@@ -1,10 +1,9 @@
 // about.jsx
 import React from "react";
 import "./about.css";
-import myimage from "../../assets/images/profileImages/myimage.png";
+import myimage from "../../assets/images/profileImages/myimage.webp";
 import ProgressBar from "react-bootstrap/ProgressBar";
-import { FaEye, FaDownload, FaCode, FaServer, FaDatabase, FaLayerGroup } from "react-icons/fa";
-import { resumePdf, downloadResume } from "../../utils/resume";
+import { FaFilePdf, FaDownload, FaCode, FaServer, FaDatabase, FaLayerGroup } from "react-icons/fa";
 
 const skillsData = [
   { name: "React.js & Next.js", level: 85, icon: <FaCode />, category: "Frontend" },
@@ -15,7 +14,7 @@ const skillsData = [
   { name: "REST APIs & WebSockets", level: 85, icon: <FaServer />, category: "Architecture" },
 ];
 
-const About = () => {
+const About = ({ onOpenResume }) => {
   return (
     <section id="about" className="about-section">
       <div className="about-container">
@@ -67,26 +66,24 @@ const About = () => {
 
             {/* Resume Action Buttons */}
             <div className="bio-actions">
-              <a
-                href={resumePdf}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
+                onClick={onOpenResume}
                 className="btn-resume-view"
-                title="Open Azizullah's Resume in New Tab"
+                title="Preview Azizullah's Resume in Modal"
               >
-                <FaEye className="btn-icon" />
-                View Resume
-              </a>
+                <FaFilePdf className="btn-icon" />
+                View Full Resume
+              </button>
 
               <a
-                href={resumePdf}
+                href="/azizullahResume.pdf"
                 download="Azizullah-Resume.pdf"
-                onClick={downloadResume}
                 className="btn-resume-download"
                 title="Download Azizullah's Resume PDF"
               >
                 <FaDownload className="btn-icon" />
-                Download Resume
+                Download CV
               </a>
             </div>
           </div>

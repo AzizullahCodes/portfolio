@@ -1,10 +1,10 @@
 // home.jsx
 import React from "react";
 import "./home.css";
-import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp, FaArrowDown, FaCodeBranch } from "react-icons/fa";
-import myimage from "../../assets/images/profileImages/myimage.png";
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp, FaArrowDown, FaFilePdf, FaCodeBranch } from "react-icons/fa";
+import myimage from "../../assets/images/profileImages/myimage.webp";
 
-const Home = () => {
+const Home = ({ onOpenResume }) => {
   const scrollTo = (sectionId) => {
     const el = document.getElementById(sectionId);
     if (el) {
@@ -26,7 +26,7 @@ const Home = () => {
           {/* Live Status Pill */}
           <div className="status-pill">
             <span className="status-dot"></span>
-            <span>Available for Opportunities & Frontend/Full-Stack Projects</span>
+            <span>Available for Opportunities & Full-Stack Projects</span>
           </div>
 
           <h1 className="hero-title">
@@ -49,6 +49,17 @@ const Home = () => {
             >
               <span>Explore My Work</span>
               <FaArrowDown className="btn-action-icon" />
+            </button>
+
+            {/* Open Resume Modal */}
+            <button
+              type="button"
+              onClick={onOpenResume}
+              className="btn-hero-resume"
+              title="Open Resume Preview"
+            >
+              <FaFilePdf className="btn-action-icon" />
+              <span>View Resume</span>
             </button>
 
             <button

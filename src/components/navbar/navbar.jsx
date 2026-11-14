@@ -4,8 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './navbar.css';
+import { FaFilePdf } from 'react-icons/fa';
 
-function MyNavbar() {
+function MyNavbar({ onOpenResume }) {
   const [activeSection, setActiveSection] = useState('home');
   const [isScrolled, setIsScrolled] = useState(false);
   const [navExpanded, setNavExpanded] = useState(false);
@@ -109,6 +110,20 @@ function MyNavbar() {
             >
               Contact
             </a>
+
+            {/* Resume Button in Navbar (Opens Preview Modal) */}
+            <button
+              type="button"
+              onClick={() => {
+                setNavExpanded(false);
+                if (onOpenResume) onOpenResume();
+              }}
+              className="navbar-resume-btn"
+              title="Preview Azizullah's Resume"
+            >
+              <FaFilePdf className="resume-nav-icon" />
+              <span>Resume</span>
+            </button>
           </Nav>
         </Navbar.Collapse>
       </Container>

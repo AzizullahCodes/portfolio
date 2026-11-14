@@ -25,7 +25,7 @@ const Projects = () => {
             Crafted with <span className="gradient-text">Passion & Code</span>
           </h2>
           <p className="projects-subtitle">
-            Explore my featured  frontend applications. Built with modern architectures, 
+            Explore my featured full-stack and frontend applications. Built with modern architectures, 
             pixel-perfect design, clean code, and robust user experiences.
           </p>
         </div>
@@ -58,10 +58,6 @@ const Projects = () => {
                       alt={project.title} 
                       className="project-image"
                       loading="lazy"
-                      onError={(e) => {
-                        e.currentTarget.onerror = null;
-                        e.currentTarget.src = "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=1200&q=80";
-                      }}
                     />
                     <div className="image-overlay">
                       <a 
@@ -141,7 +137,7 @@ const Projects = () => {
         {/* Bottom Banner */}
         <div className="projects-cta-box">
           <div className="cta-content">
-            <h3>Have an exciting idea or need a Frontend/full-stack solution?</h3>
+            <h3>Have an exciting idea or need a full-stack solution?</h3>
             <p>I am available for freelance projects, internships, and full-time software engineering roles.</p>
           </div>
           <a href="#contact" onClick={scrollToContact} className="cta-contact-btn">
